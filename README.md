@@ -26,16 +26,17 @@ Customization
 ===============
 
 Set attributes to the &lt;div&gt; tag to configure the scoreboard number.
-Attribute  | Description  | Example
-------------- | ------------- | -------------  
-data-scorer-digits  | Number of digits  |  2
-data-divider-size  | Size of horizontal divider running across the board  | 2
-data-divider-color  | Color of frame and horizontal divider  | white
-data-edge-color  | Color of card frame  | grey
-data-edge-size  | Thickness of card frame  | 8
-data-bg-color  | Background color of card  | black
-data-color  | Color of number  | red
-data-font-size  | Size of number  | 8em
-data-card-width  | Width of each card  | 120
-data-height  | Height of each card  | 8em
-data-fliptime-ms  | Speed of flipping animation  | 150
+
+|Attribute  | Description  | Example|
+|------------- | ------------- | -------------|  
+|data-scorer-digits  | Number of digits  |  2|
+|data-divider-size  | Size of horizontal divider running across the board  | 2|
+|data-divider-color  | Color of frame and horizontal divider  | white|
+|data-edge-color  | Color of card frame  | grey|
+|data-edge-size  | Thickness of card frame  | 8|
+|data-bg-color  | Background color of card  | black|
+|data-color  | Color of number  | red|
+|data-font-size  | Size of number  | 8em|
+|data-card-width  | Width of each card  | 120|
+|data-height  | Height of each card  | 8em|
+|data-fliptime-ms  | Speed of flipping animation  | 150|
