@@ -1,0 +1,35 @@
+.scorer {
+	height: 300px; /* Overwritable */
+	margin: 5px; 
+}
+
+.scorer-panel {
+	text-align: center; 
+	height: 146px; /* Derived, half scorer height - 2x this border */
+	width: 110px; /* TODO = dynamic + 2x border of scorer-num */
+	border: rgba(0,0,0,0.87) solid; /* Size & Color overwritable, default size defined as constant in JS */
+	float: left;
+	overflow: hidden;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+}
+
+.scorer .scorer-num {
+	font-size: 11em; /* Overwritable */
+	height: 286px; /* Derived, height - 2x border - 2x border of panel */
+	line-height: 286px; /* Derived, equals this height */
+	background-color: white; /* Overwritable */
+	color: black; /* Overwritable */
+	width: 100px; /* Overwritable */
+	border: blue solid; /* Size & Color overwritable, default size defined as constant in JS */
+	font-weight: bold; 
+	font-family: sans-serif;
+	position: absolute;
+	text-align: center;
+	z-index: 2;
+}
+
+.scorer-bottom {
+	top: -150px; /* Derived, panel height / 2 * (-1) */
+}
