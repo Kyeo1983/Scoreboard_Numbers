@@ -2,7 +2,7 @@ Scoreboard-Styled Flipping Numbers
 ==================================
 
 Flipping numbers that flip to selected number.
-Works for any number of digit, and style is configurable. 
+Works for any number of digit, and style is configurable.
 
 <img src="https://github.com/Kyeo1983/Scoreboard_Numbers/blob/master/sample/screenshot.jpg"/>
 
@@ -39,4 +39,3 @@ Set attributes to the &lt;div&gt; tag to configure the scoreboard number.
 |data-font-size  | Size of number  | 8em|
 |data-card-width  | Width of each card  | 120|
 |data-height  | Height of each card  | 8em|
-|data-fliptime-ms  | Speed of flipping animation  | 150|

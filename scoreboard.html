@@ -11,14 +11,13 @@
 				  data-divider-color="white"
 				  data-edge-color="grey"
 				  data-edge-size="8"
-				  data-bg-color="black"
-				  data-color="red"
+				  data-bg-color="#0076A3"
+				  data-color="#EB9373"
 				  data-card-width="100"
 				  data-font-size="8em"
-				  data-height="200"
-				  data-fliptime-ms="100">
+				  data-height="200">
 			</div>
-			
+
 			<div style="float:left;height:200px;line-height:200px;
 						font-size:60px;font-family:Segoe UI;padding:10px;">
 				VS
@@ -31,12 +30,11 @@
 				  data-divider-color="white"
 				  data-edge-color="grey"
 				  data-edge-size="8"
-				  data-bg-color="black"
-				  data-color="red"
+				  data-bg-color="#0076A3"
+				  data-color="#EB9373"
 				  data-card-width="100"
 				  data-font-size="8em"
-				  data-height="200"
-				  data-fliptime-ms="100">
+				  data-height="200">
 			</div>
 
 			<div style="height:50px;clear:both;"></div>
@@ -45,13 +43,13 @@
 			<input type="text" id="away_score" value="57"/>
 			<input type="button" id="run" value="Run"/>
 		</div>
-		
+
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="scoreboard.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				Scorer._init();
-				
+
 				$('#run').click(function() {
 					Scorer.flip($('#home'), $('#home_score').val());
 					Scorer.flip($('#away'), $('#away_score').val());

@@ -1,10 +1,10 @@
 .scorer {
 	height: 300px; /* Overwritable */
-	margin: 5px; 
+	margin: 5px;
 }
 
 .scorer-panel {
-	text-align: center; 
+	text-align: center;
 	height: 146px; /* Derived, half scorer height - 2x this border */
 	width: 110px; /* TODO = dynamic + 2x border of scorer-num */
 	border: rgba(0,0,0,0.87) solid; /* Size & Color overwritable, default size defined as constant in JS */
@@ -23,7 +23,7 @@
 	color: black; /* Overwritable */
 	width: 100px; /* Overwritable */
 	border: blue solid; /* Size & Color overwritable, default size defined as constant in JS */
-	font-weight: bold; 
+	font-weight: bold;
 	font-family: sans-serif;
 	position: absolute;
 	text-align: center;
@@ -32,4 +32,44 @@
 
 .scorer-bottom {
 	top: -150px; /* Derived, panel height / 2 * (-1) */
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+.scorer-bottom.flipped {
+	cursor: default;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.scorer-bottom-bg.flipped {
+	opacity: 0.8;
+	background-color: black !important;
+}
+.scorer-bottom-bg {
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+.scorer-top {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.scorer-top.flipped {
+	cursor: default;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+.scorer-top.flipped > span {
+		opacity: 0.8;
+}
+.scorer-top.flipped > .scorer-bg {
+	opacity: 0.8;
+}
+.scorer-bg {
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
