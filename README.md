@@ -4,7 +4,7 @@ Scoreboard-Styled Flipping Numbers
 Flipping numbers that flip to selected number.
 Works for any number of digit, and style is configurable.
 
-<img src="https://github.com/Kyeo1983/Scoreboard_Numbers/blob/master/sample/screenshot.jpg"/>
+<img src="https://github.com/Kyeo1983/Scoreboard_Numbers/blob/master/sample/scoreboard.gif"/>
 
 
 
